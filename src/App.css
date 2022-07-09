@@ -17,3 +17,51 @@
 .fw-400{
   font-weight: 400;
 }
+
+/* ITEM COUNT */
+.contadorContenedor {
+  display: flex;
+  justify-content: center;
+}
+.contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 16rem;
+}
+.btnContador {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  height: 40px;
+}
+.btnContador button {
+  font-size: 16px;
+  color: #BF1300;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #BF1300;
+  background-color: white;
+  cursor: pointer;
+}
+.btnContador button:hover, .btnContador button:focus, .btnContador button:active {
+  box-shadow: none;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #BF1300;
+  background-color: #BF1300;
+  color: white;
+  cursor: pointer;
+}
+.btnPrin button {
+  background-color: #BF1300 !important;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px !important;
+  margin: 16px 0 0 0;
+  cursor: pointer;
+}
+

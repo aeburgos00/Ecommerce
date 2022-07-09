@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
 import CartWidget from '../CartWidget/CartWidget'
 
 const NavbarMio = () => {
