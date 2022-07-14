@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="App">
       <NavbarMio />
-      <ItemListContainer listarItem="Prod1"/>
-      <ItemListContainer listarItem="Prod2"/>
-      <ItemListContainer listarItem="Prod3"/>
+      <ItemListContainer listarItem="Bienvenidos"/>
       <ItemCount stock={5} initial={0} onAdd={onAdd} />
     </div>
   );
